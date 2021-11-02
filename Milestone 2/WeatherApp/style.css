@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montserrat', sans-serif;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: top center;
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(116, 110, 110, 0.3), rgba(78, 73, 73, 0.3));
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+
+header input {
+  width: 100%;
+  max-width: 250px;
+  padding: 10px 15px;
+  background-color: rgba(234, 235, 233, 0.897);
+  border-radius: 0px 16px 0px 16px;
+  border-bottom: 3px solid gray;
+
+  color: #313131;
+  font-size: 30px;
+  font-weight: 300;
+
+}
+
+header input:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+main {
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.location .city {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.location .date {
+  color: #fff;
+  font-size: 16px;
+}
+
+.current .temp {
+  color: rgb(248, 239, 239);
+  font-size: 100px;
+  font-weight: 900;
+  margin: 30px 0px;
+  
+}
+
+.current .temp span {
+  font-weight: 500;
+}
+
+.current .weather {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+.current .hi-low {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  
+}
